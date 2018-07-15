@@ -1,0 +1,12 @@
+<!-- 继承公共模板内容 -->
+@extends('Home/layouts/index')
+
+<!-- 替换单行占位的内容 -->
+@section('title', '项目')
+@section('lightspot', '项目')
+
+<!-- 替换区块占位的sidebar内容 -->
+
+@section('header')
+
+@endsection
